@@ -1,0 +1,51 @@
+#appContainer {
+    padding: 2rem;
+}
+
+input {
+    padding-left: 3px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+input[type='file'] {
+    display: none
+}
+
+.fileUpload {
+    border: 1px solid black;
+    padding: 3px 5px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+button { 
+    padding: 3px 10px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: none;
+    background-color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid black; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
