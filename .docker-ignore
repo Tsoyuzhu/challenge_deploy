@@ -1,2 +1,4 @@
-.docker-ignore
-.git
+/.docker-ignore
+/.git
+/deploy
+/__pycache__
