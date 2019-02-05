@@ -1,16 +1,13 @@
-# Task Description:
-Please find a dataset with peoples names and their gender. 
-
-The task is to create a Machine Learning application (e.g. Tensorflow or Keras) in Flask/Django API (with swagger API Documentation) predict the gender of peoples first names. The endpoints should have the ability to retrain and serve the machine learning model. 
-
-A requirements.txt file in and Instructions on how to run the app locally in your README.md must be included. 
-
- # Bonus Task:
-Note that these tasks are optional and will not be judged as strictly as the items mentioned above.
-- Write a Dockerfile that will create an image of your compiled back-end code
-- Write a bash script that compiles your back-end code and builds your Dockerfile.
-
 # Instructions
+- This application assumes that the following commands are run on a unix terminal.
+- It is assumed that git and docker community edition are installed on the computer and can be accessed via the terminal. 
+- Clone the repository (HTTPS):
+    `git clone https://github.com/Tsoyuzhu/challenge_deploy.git`
+- Change into the app directory:
+    `cd challenge_deploy`
+- Run the bash script:
+    `./run.sh`
+- View the application in a web browser on localhost:5000.
 
 # API Documentation
 Swagger UI Documentation for the app API can be viewed at the route '/api/doc'. If the app is being hosted locally, the url may be 'localhost:5000/api/doc'.
